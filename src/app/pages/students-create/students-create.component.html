@@ -1,0 +1,30 @@
+<div>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h4>Create Student
+                    <a routerLInk="/" class="btn btn-danger float-end">back</a>
+                </h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="name">name</label>
+                        <input type="text" [(ngModel)]="name" id="name" name="name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address">address</label>
+                        <input type="text" [(ngModel)]="address" id="address" name="address" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone">phone</label>
+                        <input type="text" [(ngModel)]="phone" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary" (click)="save()">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
