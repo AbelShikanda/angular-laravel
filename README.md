@@ -19,13 +19,13 @@ To run this application locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/AbelShikanda/crud-app
+   git clone https://github.com/AbelShikanda/angular-laravel
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd crud-app
+   cd angular-laravel
    ```
 
 3. Install dependencies:
